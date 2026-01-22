@@ -9,14 +9,17 @@ import UIKit
 
 class LoginViewController: UIViewController {
 
+    let screen = "tela"
+    
     override func viewDidLoad() {
         super.viewDidLoad()
 
-     
+        printNameScreen()
     }
     
-
-
-
+    func printNameScreen(){
+        printContent("Eu sou a tela \(screen)")
+    
+    }
 
 }
