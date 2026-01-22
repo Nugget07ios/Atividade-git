@@ -8,22 +8,15 @@
 import UIKit
 
 class RegisterViewController: UIViewController {
-
+    
+    let screen: String = "Tela Register"
     override func viewDidLoad() {
         super.viewDidLoad()
-
-        // Do any additional setup after loading the view.
+        
+        printNameScreen()
     }
     
-
-    /*
-    // MARK: - Navigation
-
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
-    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        // Get the new view controller using segue.destination.
-        // Pass the selected object to the new view controller.
+    func printNameScreen(){
+        print("Eu sou a tela \(screen)")
     }
-    */
-
 }
