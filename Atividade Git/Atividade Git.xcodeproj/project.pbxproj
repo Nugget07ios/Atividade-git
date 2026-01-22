@@ -6,8 +6,13 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		A0D826CC2F21C11700BA139D /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0D826CB2F21C11700BA139D /* LoginViewController.swift */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXFileReference section */
 		A0D826A22F21BF7900BA139D /* Atividade Git.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Atividade Git.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A0D826CB2F21C11700BA139D /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
@@ -45,6 +50,7 @@
 		A0D826992F21BF7900BA139D = {
 			isa = PBXGroup;
 			children = (
+				A0D826CB2F21C11700BA139D /* LoginViewController.swift */,
 				A0D826A42F21BF7900BA139D /* Atividade Git */,
 				A0D826A32F21BF7900BA139D /* Products */,
 			);
@@ -132,6 +138,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A0D826CC2F21C11700BA139D /* LoginViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
